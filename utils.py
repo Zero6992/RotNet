@@ -5,9 +5,9 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-from keras.preprocessing.image import Iterator
-from keras.utils.np_utils import to_categorical
-import keras.backend as K
+from tensorflow.keras.preprocessing.image import Iterator
+from tensorflow.keras.utils import to_categorical
+import tensorflow.keras.backend as K
 
 
 def angle_difference(x, y):
