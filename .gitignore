@@ -91,6 +91,7 @@ ENV/
 .ropeproject
 
 # Project specific settings
-data/street_view
+/data
 logs/
 *.hdf5
+/train
